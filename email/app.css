@@ -1,0 +1,129 @@
+div {
+    border: px dotted #FAA;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.pad-15 {
+  padding: 15px;  
+}
+
+.outer-box {
+  width: 80%;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.inner-box {
+  border: 1px solid #C00;
+  position: relative;
+  width: 40%
+}
+
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+
+font-family: verdana, sans-serif;
+  text-align: center;
+}
+
+.row {
+margin-right: -15px;
+margin-left: -15px;
+  position: relative;
+}
+
+.cal-page {
+  width: 150px;
+  height: 160px;
+  margin: auto;
+  border: 1px solid #999;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cal-page-month {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cal-page-divider {
+  width: 100%;
+  border-bottom: 1px solid #999;
+}
+
+.cal-page-dom {
+   font-size: 4em;  
+  padding-top: 5px;
+   color: #337ab7;
+}
+
+.cal-page-day {
+  font-weight: light;
+  font-size: 1.2em;
+  padding-top: 5px;
+   color: #337ab7;
+}
+
+.time-lg {
+  font-size: 1.5em;
+}
+
+.time-lg > p > .number {
+  font-weight: bold;
+}
+
+.time-lg > p > .ampm {
+  font-weight: lighter;
+}
+
+.cta-btn {
+}
+
+#btn-yes {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+#btn-no {
+  color: #337ab7;
+  background-color: #fff;
+  border-color: #2e6da4;
+}
+
+.cta-btn > .emph {
+  text-transform: uppercase;
+  font-size: larger;
+  display: block;
+}
+
+.cta-btn > .small {
+  font-size: smaller;
+}
+
+.cta-btn {
+  text-decoration: none;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+}
